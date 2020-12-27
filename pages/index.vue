@@ -1,10 +1,16 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-27 13:32:36
+ * @LastEditTime: 2020-12-27 14:55:17
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /share-document-ssr/pages/index.vue
+-->
 <template>
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        share-document-ssr
-      </h1>
+      <h1 class="title">share-document-ssr</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -42,16 +48,8 @@ export default {}
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
